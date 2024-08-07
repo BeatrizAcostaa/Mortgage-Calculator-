@@ -32,7 +32,7 @@ class MyGUI:
         self.amount3 = tkinter.Entry(self.third_f,width = 15, foreground = 'blue')
         self.amount4 = tkinter.Entry(self.fourth_f,width = 15, foreground = 'blue')
 
-        #buttons 
+        #buttons #NEW CHANGE!
         self.result = tkinter.Button(self.fifth_f, text = '| Calculate Monthly Payment |', command = self.Calculate)
         self.quit = tkinter.Button(self.fifth_f,text = 'QUIT', command = self.main_w.destroy)
 
